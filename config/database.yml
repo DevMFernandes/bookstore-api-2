@@ -80,6 +80,4 @@ test:
 #
 production:
   <<: *default
-  database: bookstore_api_2_production
-  username: bookstore_api_2
-  password: <%= ENV['BOOKSTORE_API_2_DATABASE_PASSWORD'] %>
+  database: db/production.postgres
