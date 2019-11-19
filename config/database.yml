@@ -80,4 +80,6 @@ test:
 #
 production:
   <<: *default
-  database: db/production.postgres
+  database: bookstore_production
+  username: <%= ENV['PG_USER'] %>
+  password: <%= ENV['PG_PASS'] %>
