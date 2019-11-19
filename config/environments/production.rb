@@ -103,5 +103,4 @@ Rails.application.configure do
   # config.active_record.database_resolver = ActiveRecord::Middleware::DatabaseSelector::Resolver
   # config.active_record.database_resolver_context = ActiveRecord::Middleware::DatabaseSelector::Resolver::Session
 
-  Rails.application.routes.default_url_options = { host: "https://em-bookstore-api.herokuapp.com" }
 end

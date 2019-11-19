@@ -81,5 +81,4 @@ test:
 production:
   <<: *default
   database: bookstore_production
-  username: <%= ENV['PG_USER'] %>
   password: <%= ENV['PG_PASS'] %>
